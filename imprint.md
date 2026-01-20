@@ -1,7 +1,7 @@
----
 layout: default
 title: Imprint (Impressum)
 lang: de
+noindex: true
 ---
 
 # Impressum
