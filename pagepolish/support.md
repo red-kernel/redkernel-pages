@@ -1,6 +1,6 @@
+---
 layout: default
 title: Support - PagePolish
-permalink: /pagepolish/support/
 ---
 
 # Support for PagePolish
