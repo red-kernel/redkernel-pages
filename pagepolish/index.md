@@ -3,6 +3,10 @@ layout: default
 title: PagePolish
 ---
 
+<div style="text-align: center;">
+    <img src="{{ "/assets/images/pagepolish-logo.png" | relative_url }}" alt="PagePolish Logo" class="app-logo">
+</div>
+
 # PagePolish
 
 **The ultimate formatting assistant for Confluence Cloud.**
