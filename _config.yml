@@ -1,0 +1,11 @@
+title: RedKernel
+email: support@redkernel.de
+description: >-
+  Intelligent software solutions by RedKernel.
+baseurl: ""
+url: "https://redkernel.de"
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
