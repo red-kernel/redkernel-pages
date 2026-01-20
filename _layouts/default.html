@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: " en" }}">
+<html lang="{{ page.lang | default: "en" }}">
 
 <head>
     <meta charset="UTF-8">
@@ -12,18 +12,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ " /assets/css/styles.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
 </head>
 
 <body>
     <header>
         <div class="container">
             <nav>
-                <a href="{{ " /" | relative_url }}" class="logo">RedKernel</a>
+                <a href="{{ "/" | relative_url }}" class="logo">RedKernel</a>
                 <div class="nav-links">
-                    <a href="{{ " /" | relative_url }}">Home</a>
-                    <a href="{{ " /pagepolish/" | relative_url }}">PagePolish</a>
-                    <a href="{{ " /pagepolish/support/" | relative_url }}">Support</a>
+                    <a href="{{ "/" | relative_url }}">Home</a>
+                    <a href="{{ "/pagepolish/" | relative_url }}">PagePolish</a>
+                    <a href="{{ "/pagepolish/support/" | relative_url }}">Support</a>
                 </div>
             </nav>
         </div>
@@ -38,9 +38,9 @@
             <div class="footer-content">
                 <div class="logo" style="font-size: 1.2rem;">RedKernel</div>
                 <div class="footer-links">
-                    <a href="{{ " /imprint/" | relative_url }}">Imprint</a>
-                    <a href="{{ " /terms/" | relative_url }}">Terms</a>
-                    <a href="{{ " /pagepolish/privacy/" | relative_url }}">Privacy</a>
+                    <a href="{{ "/imprint/" | relative_url }}">Imprint</a>
+                    <a href="{{ "/terms/" | relative_url }}">Terms</a>
+                    <a href="{{ "/pagepolish/privacy/" | relative_url }}">Privacy</a>
                 </div>
                 <div style="color: var(--text-secondary); font-size: 0.8rem;">
                     &copy; {{ "now" | date: "%Y" }} RedKernel. All rights reserved.
