@@ -9,12 +9,12 @@
     --text-secondary: #424245;
 
     /* Dark Header/Footer Override Variables */
-    --header-bg: rgba(10, 10, 10, 0.95);
-    --footer-bg: #0a0a0a;
+    --header-bg: #000000;
+    --footer-bg: #000000;
     --dark-text: #ffffff;
     --dark-text-secondary: #a0a0a0;
 
-    --accent-gradient: linear-gradient(135deg, #ff3b30 0%, #ff9500 100%);
+    --brand-red: #ff3b30;
     --glass-border: rgba(0, 0, 0, 0.1);
     --glass-border-dark: rgba(255, 255, 255, 0.1);
     --font-main: 'Inter', sans-serif;
@@ -62,7 +62,7 @@ header {
     top: 0;
     z-index: 100;
     background: var(--header-bg);
-    backdrop-filter: blur(10px);
+    /* Removed backdrop-filter for pure opaque black */
     margin-bottom: 4rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     color: var(--dark-text);
@@ -95,9 +95,7 @@ nav {
 }
 
 .text-red {
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--brand-red);
 }
 
 .text-white {
