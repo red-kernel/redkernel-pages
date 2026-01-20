@@ -1,14 +1,22 @@
 :root {
     --primary-color: #ff3b30;
     --primary-hover: #e0322a;
-    --bg-color: #0a0a0a;
-    --header-bg: rgba(10, 10, 10, 0.9);
+
+    /* Main Body Light Theme */
+    --bg-color: #ffffff;
+    --surface-color: #f5f5f7;
+    --text-color: #1d1d1f;
+    --text-secondary: #424245;
+
+    /* Dark Header/Footer Override Variables */
+    --header-bg: rgba(10, 10, 10, 0.95);
     --footer-bg: #0a0a0a;
-    --surface-color: #1a1a1a;
-    --text-color: #ffffff;
-    --text-secondary: #a0a0a0;
+    --dark-text: #ffffff;
+    --dark-text-secondary: #a0a0a0;
+
     --accent-gradient: linear-gradient(135deg, #ff3b30 0%, #ff9500 100%);
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-border: rgba(0, 0, 0, 0.1);
+    --glass-border-dark: rgba(255, 255, 255, 0.1);
     --font-main: 'Inter', sans-serif;
 }
 
@@ -47,6 +55,7 @@ a:hover {
     width: 100%;
 }
 
+/* Header - DARK MODE */
 header {
     padding: 1.5rem 0;
     position: sticky;
@@ -55,7 +64,9 @@ header {
     background: var(--header-bg);
     backdrop-filter: blur(10px);
     margin-bottom: 4rem;
-    border-bottom: 1px solid var(--glass-border);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    color: var(--dark-text);
+    /* Force white text */
 }
 
 nav {
@@ -101,14 +112,16 @@ nav {
 .nav-links a {
     font-size: 0.95rem;
     font-weight: 500;
-    color: var(--text-secondary);
+    color: var(--dark-text-secondary);
+    /* Light grey for dark header */
 }
 
 .nav-links a:hover {
-    color: var(--text-color);
+    color: var(--dark-text);
+    /* White on hover */
 }
 
-/* Typography & Content */
+/* Typography & Content - LIGHT MODE (Inherits from body) */
 h1,
 h2,
 h3,
@@ -192,17 +205,18 @@ code {
 }
 
 .card {
-    background: var(--surface-color);
+    background: #ffffff;
     border: 1px solid var(--glass-border);
     padding: 2rem;
     border-radius: 12px;
     margin-bottom: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 .alert {
     background: rgba(255, 149, 0, 0.1);
     border: 1px solid #ff9500;
-    color: #ff9500;
+    color: #c45b00;
     padding: 1rem;
     border-radius: 8px;
     margin: 1rem 0;
@@ -213,16 +227,16 @@ code {
     height: auto;
     margin: 2rem 0;
     border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(255, 59, 48, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* Footer */
+/* Footer - DARK MODE */
 footer {
-    border-top: 1px solid var(--glass-border);
+    border-top: 1px solid var(--glass-border-dark);
     padding: 3rem 0;
     background: var(--footer-bg);
     margin-top: auto;
-    color: var(--text-secondary);
+    color: var(--dark-text-secondary);
 }
 
 .footer-content {
@@ -239,12 +253,12 @@ footer {
 }
 
 .footer-links a {
-    color: var(--text-secondary);
+    color: var(--dark-text-secondary);
     font-size: 0.9rem;
 }
 
 .footer-links a:hover {
-    color: var(--primary-color);
+    color: var(--dark-text);
 }
 
 @media (max-width: 768px) {
@@ -260,10 +274,4 @@ footer {
     .nav-links {
         gap: 1rem;
     }
-
-    .logo-text {
-        display: none;
-    }
-
-    /* Optional: Hide text on very small screens if crowded */
 }
