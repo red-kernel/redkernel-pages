@@ -32,7 +32,3 @@ Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Rich
 
 **Haftung für Links**  
 Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.
-
-<div class="alert">
-  <strong>Note to Owner:</strong> Please edit this file to replace the [bracketed placeholders] with your actual legal details (Name, Address) to be fully compliant with German law.
-</div>

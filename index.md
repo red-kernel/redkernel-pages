@@ -19,4 +19,5 @@ Confluence Cloud app to clean up formatting issues on pages.
   <h3>Contact</h3>
   <p>For general inquiries, partnership opportunities, or just to say hello.</p>
   <a href="mailto:admin@redkernel.de" class="btn">Contact Us</a>
+  <br><br>
 </div>
