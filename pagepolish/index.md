@@ -11,7 +11,7 @@ title: PagePolish
 
 **The ultimate formatting assistant for Confluence Cloud.**
 
-PagePolish automatically detects and resolves common formatting issues in your Confluence pages. While it keeps any page clean and professional, it **excels at correcting the messy formatting** often left behind when copy-pasting from external tools, specifically **AI assistants like ChatGPT**.
+PagePolish automatically detects and resolves common formatting issues in your Confluence pages. While it keeps any page clean and professional, it **excels at correcting the messy formatting** often left behind when copy-pasting from external tools, specifically **AI assistants like ChatGPT**. Crucially, it **never changes your actual content**, only the formatting.
 
 ## Key Features
 *   **Remove Empty Lines**: Clean up excessive whitespace.
