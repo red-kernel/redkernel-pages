@@ -47,6 +47,17 @@ a:hover {
     color: var(--primary-color);
 }
 
+/* Make links in main content visible */
+main a {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+main a:hover {
+    color: var(--primary-hover);
+    text-decoration: underline;
+}
+
 /* Layout */
 .container {
     max-width: 900px;
