@@ -2,8 +2,8 @@ title: RedKernel
 email: support@redkernel.de
 description: >-
   Intelligent software solutions by RedKernel.
-baseurl: "/redkernel-pages"
-url: "https://red-kernel.github.io"
+baseurl: ""
+url: "https://redkernel.de"
 markdown: kramdown
 theme: minima
 plugins:
