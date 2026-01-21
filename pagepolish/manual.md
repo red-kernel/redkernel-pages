@@ -28,19 +28,25 @@ Once installed, PagePolish will be available in the content action menu (the "..
 3.  Select **PagePolish** from the menu.
 
 ### Configuration Options
-Before cleaning your page, you can customize what PagePolish fixes:
+After scanning, PagePolish presents 4 options to customize the cleanup. The default selection is recommended to give your content a structure similar to **ChatGPT output**.
 
-*   **Remove all empty lines**: Consolidates multiple consecutive empty lines into a single empty line, or removes them entirely depending on context.
-*   **Remove horizontal rules**: Deletes all horizontal separator lines (`---`) from the page.
-*   **Fix detached bullet points**: Detects bullet points that have become separated from their lists and re-attaches them.
+*   **Reduce consecutive empty lines** *(Recommended)*: Consolidates multiple empty lines into a single one. This improves readability without making the page too dense.
+*   **Remove all empty lines**: aggressively removes *all* blank lines. Use this if you want a very compact document.
+*   **Horizontal Rules**: Detects and removes separator lines (`---`).
+*   **Detached Bullets** *(Recommended)*: Fixes bullet points that have become separated from their lists (a common issue when pasting from external tools).
+
+> **Tip:** We recommend keeping the pre-selected options (**Reduce consecutive empty lines** and **Detached Bullets**) to achieve the cleanest, most professional look.
 
 ### Scanning and Cleaning
-1.  **Scan Page**: Click the **Scan** button to analyze the page without making changes. PagePolish will report how many issues it found (e.g., "Found 12 empty lines").
-2.  **Clean Page**: Click the **Clean** button to apply the fixes.
-3.  **Refresh**: The page will automatically reload to show the polished result.
+1.  **Scan Page**: Click the **Scan** button to analyze the page.
+2.  **Review**: See how many issues were found for each category.
+3.  **Clean Page**: Click **Clean** to apply the fixes. The page will reload automatically.
 
-## 4. Troubleshooting
-
+### Reverting Changes
+PagePolish edits your page just like a user would. If you are not happy with the result:
+1.  Go to the **Page History** in Confluence (click the clock icon or "Page History" in the menu).
+2.  Select the previous version (before PagePolish ran).
+3.  Click **Restore** to undo the changes.
 ### "Something went wrong" error
 If you see an error message, try the following:
 *   Refresh your browser tab and try again.
