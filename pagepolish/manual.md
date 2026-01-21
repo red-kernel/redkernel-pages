@@ -31,11 +31,14 @@ Once installed, PagePolish will be available in the content action menu (the "..
 After scanning, PagePolish presents 4 options to customize the cleanup. The default selection is recommended to give your content a structure similar to **ChatGPT output**.
 
 *   **Reduce consecutive empty lines** *(Recommended)*: Consolidates multiple empty lines into a single one. This improves readability without making the page too dense.
-*   **Remove all empty lines**: aggressively removes *all* blank lines. Use this if you want a very compact document.
+*   **Fix Bold Headings** *(Recommended)*: Removes redundant bold formatting from headings and table headers often added by external tools.
+*   **Merge Blockquotes** *(Recommended)*: Merges adjacent blockquotes into a single, cohesive block.
+*   **Clean Lists** *(Recommended)*: Removes empty paragraphs inside list items to fix vertical spacing issues.
+*   **Detached Bullets** *(Recommended)*: Fixes bullet points that have become separated from their lists.
+*   **Remove all empty lines**: Aggressively removes *all* blank lines. Use this if you want a very compact document.
 *   **Horizontal Rules**: Detects and removes separator lines (`---`).
-*   **Detached Bullets** *(Recommended)*: Fixes bullet points that have become separated from their lists (a common issue when pasting from external tools).
 
-> **Tip:** We recommend keeping the pre-selected options (**Reduce consecutive empty lines** and **Detached Bullets**) to achieve the cleanest, most professional look.
+> **Tip:** We recommend keeping the default selections (all recommended fixes) to achieve the cleanest, most professional look primarily designed to match **ChatGPT Canvas** output.
 
 ### Scanning and Cleaning
 1.  **Scan Page**: Click the **Scan** button to analyze the page.
