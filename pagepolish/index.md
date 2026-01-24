@@ -26,7 +26,7 @@ PagePolish automatically detects and resolves common formatting issues in your C
 
 *   [**User Manual**]({{ "/pagepolish/manual.html" | relative_url }}): Detailed guide on installation and usage.
 *   [**Privacy Policy**]({{ "/pagepolish/privacy.html" | relative_url }}): Understand how we handle your data.
-*   [**Support**]({{ "/pagepolish/support.html" | relative_url }}): Get help when you need it.
+*   [**Support**]({{ "/support.html" | relative_url }}): Get help when you need it.
 *   [**Marketplace Listing**](#): (Coming Soon)
 
 <br>

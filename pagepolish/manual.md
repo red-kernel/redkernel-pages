@@ -60,4 +60,4 @@ If you see an error message, try the following:
 
 ## 5. Support
 Need more help? Valid bugs or feature requests?
-Visit our [Support Page]({{ "/pagepolish/support.html" | relative_url }}) or email us at [support@redkernel.de](mailto:support@redkernel.de).
+Visit our [Support Page]({{ "/support.html" | relative_url }}) or email us at [support@redkernel.de](mailto:support@redkernel.de).

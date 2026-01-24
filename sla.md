@@ -25,7 +25,7 @@ This Service Level Agreement ("SLA") covers the use of software applications ("A
 ## 2. Support Availability
 Our support team operates during standard business hours.
 
-*   **Support Channels:** Email via [support@redkernel.de](mailto:support@redkernel.de) or our [Support Page]({{ "/pagepolish/support.html" | relative_url }}).
+*   **Support Channels:** Email via [support@redkernel.de](mailto:support@redkernel.de) or our [Support Page]({{ "/support.html" | relative_url }}).
 *   **Business Hours:** Monday – Friday, 09:00 – 17:00 CET (Central European Time).
 *   **Holidays:** We observe public holidays in Germany. Support is closed on these days.
 
