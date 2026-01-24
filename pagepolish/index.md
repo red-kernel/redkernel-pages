@@ -4,7 +4,7 @@ title: PagePolish
 ---
 
 <div style="text-align: center;">
-    <img src="{{ "/assets/images/pagepolish-logo.png" | relative_url }}" alt="PagePolish Logo" class="app-logo">
+    <img src="{{ site.baseurl }}/assets/images/pagepolish-logo.png" alt="PagePolish Logo" class="app-logo">
 </div>
 
 # PagePolish
@@ -24,9 +24,9 @@ PagePolish automatically detects and resolves common formatting issues in your C
 
 ## Resources
 
-*   [**User Manual**]({{ "/pagepolish/manual.html" | relative_url }}): Detailed guide on installation and usage.
-*   [**Privacy Policy**]({{ "/pagepolish/privacy.html" | relative_url }}): Understand how we handle your data.
-*   [**Support**]({{ "/support.html" | relative_url }}): Get help when you need it.
+*   [**User Manual**]({{ site.baseurl }}/pagepolish/manual.html): Detailed guide on installation and usage.
+*   [**Privacy Policy**]({{ site.baseurl }}/pagepolish/privacy.html): Understand how we handle your data.
+*   [**Support**]({{ site.baseurl }}/support.html): Get help when you need it.
 *   [**Marketplace Listing**](#): (Coming Soon)
 
 <br>
